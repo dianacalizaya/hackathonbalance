@@ -1,0 +1,25 @@
+
+  .img-container {
+    display: flex;
+  }
+  
+  .img_card {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: rotate(0);
+  }
+  
+  .img_card:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .img-container:hover .img_card{
+    opacity:0.2;
+  }
+  .img-container .img_card:hover{
+    opacity:1;
+  }
+  
